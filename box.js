@@ -17,8 +17,8 @@ class Box extends BaseClass {
       else{
         World.remove(world, this.body);
         push();
-        this.Visiblity = this.Visiblity - 5;
-        tint(255,this.Visiblity);
+        this.visiblity = this.visiblity - 5;
+        tint(255,this.visiblity);
         pop();
       }
     }
